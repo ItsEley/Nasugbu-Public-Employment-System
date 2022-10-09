@@ -59,3 +59,20 @@ ul li:nth-child(3)::before {
   height: 40px;
   width: 120px;
 }
+#scroll-jobs{
+overflow: scroll;
+height: 100vh;
+}
+
+#company-icon{
+
+  height: 50px;
+  width: 50px;
+}
+#company-card{
+margin: 8px;
+padding: 10pxs;
+}
+#job-title{
+  font-weight: 600;
+}

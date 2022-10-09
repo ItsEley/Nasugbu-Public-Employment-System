@@ -43,7 +43,37 @@
                 <button id="searchq-btn" class="btn btn-primary" type="submit" value="search" name="">Search</button>
               </div>
             </div>
-           
+        </div>
+        <div class="row">
+          <div id="scroll-jobs"class="col-lg-6 bg-primary"> 
+            <div id="company-card" class="card my-2">
+              <img id="company-icon" class=" rounded-circle" src="https://assets.bossjob.com/companies/25512/logo/355e26141e0f178cb9a1c853325dc366.jpeg" alt="">
+              <div id="job-title"class="card-title">MIS Service Desk</div>
+            </div>
+            <div id="company-card" class="card my-2">
+              <img id="company-icon" class=" rounded-circle" src="https://assets.bossjob.com/companies/25512/logo/355e26141e0f178cb9a1c853325dc366.jpeg" alt="">
+              <div id="job-title"class="card-title">Process Trainer - Search Enginge (GIS)</div>
+            </div>
+            <div id="company-card" class="card my-2">
+              <img id="company-icon" class=" rounded-circle" src="https://assets.bossjob.com/companies/25512/logo/355e26141e0f178cb9a1c853325dc366.jpeg" alt="">
+              <div id="job-title"class="card-title">Process Trainer - Search Enginge (GIS)</div>
+            </div>
+            <div id="company-card" class="card my-2">
+              <img id="company-icon" class=" rounded-circle" src="https://assets.bossjob.com/companies/25512/logo/355e26141e0f178cb9a1c853325dc366.jpeg" alt="">
+              <div id="job-title"class="card-title">Process Trainer - Search Enginge (GIS)</div>
+            </div>
+            <div id="company-card" class="card my-2">
+              <img id="company-icon" class=" rounded-circle" src="https://assets.bossjob.com/companies/25512/logo/355e26141e0f178cb9a1c853325dc366.jpeg" alt="">
+              <div id="job-title"class="card-title">Process Trainer - Search Enginge (GIS)</div>
+            </div>
+           ~
+            <div id="company-card" class="card my-2">
+              <img id="company-icon" class=" rounded-circle" src="https://assets.bossjob.com/companies/25512/logo/355e26141e0f178cb9a1c853325dc366.jpeg" alt="">
+            </div>
+            <div id="company-card" class="card my-2">
+              <img id="company-icon" class=" rounded-circle" src="https://assets.bossjob.com/companies/25512/logo/355e26141e0f178cb9a1c853325dc366.jpeg" alt="">
+            </div>
+          </div>
         </div>
     </div>
 
