@@ -45,90 +45,21 @@
             </div>
         </div>
         <div class="row">
-          <div id="scroll-jobs"class="col-lg-6 bg-primary"> 
-            <div id="company-card" class="card my-2">
+          <div id="scroll-jobs"class="col-lg-4 bg-light"> 
+            <div id="company-card" class="card my-2 mx-2">
               <img id="company-icon" class=" rounded-circle" src="https://assets.bossjob.com/companies/25512/logo/355e26141e0f178cb9a1c853325dc366.jpeg" alt="">
               <div id="job-title"class="card-title">Position</div>
-              <span id = "featured-text"class ="text text-primary">Featured</span>
-              <span id = "featured-text"class ="text text-primary">Full-time | Part-time</span>
-              <p class=""><img src="images\SalaryIcon.svg" alt="company-icon"> 0-100000</p>
-              <p class=""><img src="images\EducationIcon.svg" alt="company-icon"> - </p>
-              <p class=""><img src="images\LocationIcon.svg" alt="company-icon"> - </p>
-              <div class="job-desc">
-                <div class="job-comp">
-                  
-                  
-                  <p class=""><img src="images\CompanyIcon.svg" alt="company-icon"> Business Name</p>
-                </div>
+              <div id="job-deets" class="job-deets">
+              <span id = "featured-text"class ="text text-primary my-1">Featured</span>
+              <span id = "fulltime-text"class ="text bg-warning my-1">Full-time</span>
               </div>
-            </div>
-            <div id="company-card" class="card my-2">
-              <img id="company-icon" class=" rounded-circle" src="https://assets.bossjob.com/companies/25512/logo/355e26141e0f178cb9a1c853325dc366.jpeg" alt="">
-              <div id="job-title"class="card-title">Position</div>
-              <span id = "featured-text"class ="text text-primary">Featured</span>
-              <span id = "featured-text"class ="text text-primary">Full-time | Part-time</span>
-              <p class=""><img src="images\SalaryIcon.svg" alt="company-icon"> 0-100000</p>
-              <p class=""><img src="images\EducationIcon.svg" alt="company-icon"> - </p>
-              <p class=""><img src="images\LocationIcon.svg" alt="company-icon"> - </p>
-              <div class="job-desc">
-                <div class="job-comp">
-                 
-                <p class=""><img src="images\CompanyIcon.svg" alt="company-icon"> Business Name</p>
-                </div>
+              <div id="icon-coll"class="icon-coll my-3">
+              <p class=""><img id="buss-icon"src="images\CompanyIcon.svg" alt="company-icon"> Business Name</p>
+              <p class=""><img id="salary-icon"src="images\SalaryIcon.svg" alt="company-salary"> 0-100000</p>
+              <p class=""><img id="loc-icon"src="images\LocationIcon.svg" alt="company-loc"> - </p>
+             
               </div>
-            </div>
-            <div id="company-card" class="card my-2">
-              <img id="company-icon" class=" rounded-circle" src="https://assets.bossjob.com/companies/25512/logo/355e26141e0f178cb9a1c853325dc366.jpeg" alt="">
-              <div id="job-title"class="card-title">Position</div>
-              <span id = "featured-text"class ="text text-primary">Featured</span>
-              <span id = "featured-text"class ="text text-primary">Full-time | Part-time</span>
-              <p class=""><img src="images\SalaryIcon.svg" alt="company-icon"> 0-100000</p>
-              <p class=""><img src="images\EducationIcon.svg" alt="company-icon"> - </p>
-              <p class=""><img src="images\LocationIcon.svg" alt="company-icon"> - </p>
-              <div class="job-desc">
-
-                <div class="job-comp">
-                <p class=""><img src="images\CompanyIcon.svg" alt="company-icon"> Business Name</p>
-                </div>
-              </div>
-            </div>
-            <div id="company-card" class="card my-2">
-              <img id="company-icon" class=" rounded-circle" src="https://assets.bossjob.com/companies/25512/logo/355e26141e0f178cb9a1c853325dc366.jpeg" alt="">
-              <div id="job-title"class="card-title">Position</div>
-              <span id = "featured-text"class ="text text-primary">Featured</span>
-              <span id = "featured-text"class ="text text-primary">Full-time | Part-time</span>
-              <p class=""><img src="images\SalaryIcon.svg" alt="company-icon"> 0-100000</p>
-              <p class=""><img src="images\EducationIcon.svg" alt="company-icon"> - </p>
-              <p class=""><img src="images\LocationIcon.svg" alt="company-icon"> - </p>
-              <div class="job-desc">
-                <div class="job-comp">
-
-                  <p class=""><img src="images\CompanyIcon.svg" alt="company-icon"> Business Name</p>
-                </div>
-              </div>
-              
-            </div>
-            <div id="company-card" class="card my-2">
-              <img id="company-icon" class=" rounded-circle" src="https://assets.bossjob.com/companies/25512/logo/355e26141e0f178cb9a1c853325dc366.jpeg" alt="">
-              <div id="job-title"class="card-title">Position</div>
-              <span id = "featured-text"class ="text text-primary">Featured</span>
-              <span id = "featured-text"class ="text text-primary">Full-time | Part-time</span>
-              <p class=""><img src="images\SalaryIcon.svg" alt="company-icon"> 0-100000</p>
-              <p class=""><img src="images\EducationIcon.svg" alt="company-icon"> - </p>
-              <p class=""><img src="images\LocationIcon.svg" alt="company-icon"> - </p>
-              
-              <div class="job-desc">
-                <div class="job-comp">
-                 <p class=""><img src="images\CompanyIcon.svg" alt="company-icon"> Business Name</p>
-                </div>
-              </div>
-            </div>
-           
-            <div id="company-card" class="card my-2">
-              <img id="company-icon" class=" rounded-circle" src="https://assets.bossjob.com/companies/25512/logo/355e26141e0f178cb9a1c853325dc366.jpeg" alt="">
-            </div>
-            <div id="company-card" class="card my-2">
-              <img id="company-icon" class=" rounded-circle" src="https://assets.bossjob.com/companies/25512/logo/355e26141e0f178cb9a1c853325dc366.jpeg" alt="">
+              <button id="apply-btn"class="btn btn-primary row mx-auto">Apply Now!</button>
             </div>
           </div>
         </div>

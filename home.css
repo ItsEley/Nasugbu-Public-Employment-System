@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 nav {
   background-color: white;
@@ -64,27 +65,91 @@ overflow: scroll;
 height: 100vh;
 }
 
-#company-icon{
+.card{
 
-  height: 50px;
-  width: 50px;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+padding: 14px 80px 18px 36px;
+cursor: pointer;
+}
+
+.card:hover{
+   transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+#company-icon{
+  margin: 10px;
+  height: 70px;
+  width: 70px;
+}
+#salary-icon{
+  height: 30px;
+  width:30px;
+}
+#loc-icon{
+  height: 30px;
+  width: 30px;
+}
+#educ-icon{
+  height: 30px;
+  width: 30px;
+}
+#buss-icon{
+  height: 30px;
+  width: 30px;
 }
 #company-card{
-margin: 8px;
-padding: 10pxs;
+margin: 13px;
+padding: 15px;
 }
 #job-title{
+  font-size: 25px;
   font-weight: 600;
+  margin-left: 10px;
 }
 #featured-text{
-
+  height: auto;
+  text-align: center;
+  width: 120px;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  box-sizing: border-box; 
+  background-color: lightblue;
+  padding: 5px;
+  border-radius: 15px;
+  margin-left: 10px;
+}
+#fulltime-text{
+  height: auto;
+  color: #7b5002;
+  text-align: center;
+  width: 120px;
   font-weight: 700;
   font-size: 16px;
   letter-spacing: 0.5px;
   box-sizing: border-box;
-  background-color: lightblue;
-  padding: 0px;
-  border-radius: 8px;
+  padding: 5px;
+  border-radius: 15px;
+  margin-left: 10px;
+
+}
+#icon-coll{
+  margin: 5px;
+  margin-left: 10px;
+}
+#apply-btn{
+  width: 120px;
+  text-align: center;
+  border-radius: 12px;
+
+}
+#job-deets{
+
+  padding: 10px;
 }
 
 
