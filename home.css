@@ -76,3 +76,15 @@ padding: 10pxs;
 #job-title{
   font-weight: 600;
 }
+#featured-text{
+
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  box-sizing: border-box;
+  background-color: lightblue;
+  padding: 0px;
+  border-radius: 8px;
+}
+
+

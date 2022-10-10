@@ -12,7 +12,7 @@
 <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light" id="navbar-main">
             <a href="#" class="navbar-brand mx-3">
-                <img src="https://assets.bossjob.com/jobseeker/Bossjob.svg" alt="LOGO" srcset="" height="29" width="120">
+                <img src="" alt="LOGO" srcset="" height="29" width="120">
             </a>
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#contentMenu">
@@ -48,25 +48,82 @@
           <div id="scroll-jobs"class="col-lg-6 bg-primary"> 
             <div id="company-card" class="card my-2">
               <img id="company-icon" class=" rounded-circle" src="https://assets.bossjob.com/companies/25512/logo/355e26141e0f178cb9a1c853325dc366.jpeg" alt="">
-              <div id="job-title"class="card-title">MIS Service Desk</div>
+              <div id="job-title"class="card-title">Position</div>
+              <span id = "featured-text"class ="text text-primary">Featured</span>
+              <span id = "featured-text"class ="text text-primary">Full-time | Part-time</span>
+              <p class=""><img src="images\SalaryIcon.svg" alt="company-icon"> 0-100000</p>
+              <p class=""><img src="images\EducationIcon.svg" alt="company-icon"> - </p>
+              <p class=""><img src="images\LocationIcon.svg" alt="company-icon"> - </p>
+              <div class="job-desc">
+                <div class="job-comp">
+                  
+                  
+                  <p class=""><img src="images\CompanyIcon.svg" alt="company-icon"> Business Name</p>
+                </div>
+              </div>
             </div>
             <div id="company-card" class="card my-2">
               <img id="company-icon" class=" rounded-circle" src="https://assets.bossjob.com/companies/25512/logo/355e26141e0f178cb9a1c853325dc366.jpeg" alt="">
-              <div id="job-title"class="card-title">Process Trainer - Search Enginge (GIS)</div>
+              <div id="job-title"class="card-title">Position</div>
+              <span id = "featured-text"class ="text text-primary">Featured</span>
+              <span id = "featured-text"class ="text text-primary">Full-time | Part-time</span>
+              <p class=""><img src="images\SalaryIcon.svg" alt="company-icon"> 0-100000</p>
+              <p class=""><img src="images\EducationIcon.svg" alt="company-icon"> - </p>
+              <p class=""><img src="images\LocationIcon.svg" alt="company-icon"> - </p>
+              <div class="job-desc">
+                <div class="job-comp">
+                 
+                <p class=""><img src="images\CompanyIcon.svg" alt="company-icon"> Business Name</p>
+                </div>
+              </div>
             </div>
             <div id="company-card" class="card my-2">
               <img id="company-icon" class=" rounded-circle" src="https://assets.bossjob.com/companies/25512/logo/355e26141e0f178cb9a1c853325dc366.jpeg" alt="">
-              <div id="job-title"class="card-title">Process Trainer - Search Enginge (GIS)</div>
+              <div id="job-title"class="card-title">Position</div>
+              <span id = "featured-text"class ="text text-primary">Featured</span>
+              <span id = "featured-text"class ="text text-primary">Full-time | Part-time</span>
+              <p class=""><img src="images\SalaryIcon.svg" alt="company-icon"> 0-100000</p>
+              <p class=""><img src="images\EducationIcon.svg" alt="company-icon"> - </p>
+              <p class=""><img src="images\LocationIcon.svg" alt="company-icon"> - </p>
+              <div class="job-desc">
+
+                <div class="job-comp">
+                <p class=""><img src="images\CompanyIcon.svg" alt="company-icon"> Business Name</p>
+                </div>
+              </div>
             </div>
             <div id="company-card" class="card my-2">
               <img id="company-icon" class=" rounded-circle" src="https://assets.bossjob.com/companies/25512/logo/355e26141e0f178cb9a1c853325dc366.jpeg" alt="">
-              <div id="job-title"class="card-title">Process Trainer - Search Enginge (GIS)</div>
+              <div id="job-title"class="card-title">Position</div>
+              <span id = "featured-text"class ="text text-primary">Featured</span>
+              <span id = "featured-text"class ="text text-primary">Full-time | Part-time</span>
+              <p class=""><img src="images\SalaryIcon.svg" alt="company-icon"> 0-100000</p>
+              <p class=""><img src="images\EducationIcon.svg" alt="company-icon"> - </p>
+              <p class=""><img src="images\LocationIcon.svg" alt="company-icon"> - </p>
+              <div class="job-desc">
+                <div class="job-comp">
+
+                  <p class=""><img src="images\CompanyIcon.svg" alt="company-icon"> Business Name</p>
+                </div>
+              </div>
+              
             </div>
             <div id="company-card" class="card my-2">
               <img id="company-icon" class=" rounded-circle" src="https://assets.bossjob.com/companies/25512/logo/355e26141e0f178cb9a1c853325dc366.jpeg" alt="">
-              <div id="job-title"class="card-title">Process Trainer - Search Enginge (GIS)</div>
+              <div id="job-title"class="card-title">Position</div>
+              <span id = "featured-text"class ="text text-primary">Featured</span>
+              <span id = "featured-text"class ="text text-primary">Full-time | Part-time</span>
+              <p class=""><img src="images\SalaryIcon.svg" alt="company-icon"> 0-100000</p>
+              <p class=""><img src="images\EducationIcon.svg" alt="company-icon"> - </p>
+              <p class=""><img src="images\LocationIcon.svg" alt="company-icon"> - </p>
+              
+              <div class="job-desc">
+                <div class="job-comp">
+                 <p class=""><img src="images\CompanyIcon.svg" alt="company-icon"> Business Name</p>
+                </div>
+              </div>
             </div>
-           ~
+           
             <div id="company-card" class="card my-2">
               <img id="company-icon" class=" rounded-circle" src="https://assets.bossjob.com/companies/25512/logo/355e26141e0f178cb9a1c853325dc366.jpeg" alt="">
             </div>
@@ -79,4 +136,4 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
-</html>
+</html> 
