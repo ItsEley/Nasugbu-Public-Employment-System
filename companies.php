@@ -7,12 +7,13 @@
     <title>Companies | PESO Nasugbu</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style-companies.css">
+    <link rel="shortcut icon" href="images\20221010_172415_0000.png" type="image/x-icon">
 </head>
 <body>
 <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light" id="navbar-main">
             <a href="#" class="navbar-brand mx-3">
-                <img src="" alt="LOGO" srcset="" height="29" width="120">
+                <img src="images\20221010_172415_0000.png" alt="LOGO" srcset="" height="100" width="100">
             </a>
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#contentMenu">
@@ -88,9 +89,196 @@
 </div>
 
 <div class="popular-companies">
-    <div class="row">
-        <div class="col-lg-4">
-            <div class="card">
+  
+    <div class="row"><p class="pop-companies-title my-4 h4">Companies In Nasugbu</p>
+        <div class="col-lg-4 my-4">
+            <div id ="pop-company-card" class="card">
+                <div class="card-body">
+                    <div class="company-desc">
+                        <div class="card-title">
+                            <p class="company-name">
+                                John Clements Consultants
+                            </p>
+                            <img id="pop-comp-icon" src="images\RYXON8fpcx4d4HcviPfVMn7Tdd3qRPfrOP5otogJ.jpeg" alt="" srcset="">
+                            <a href=""> View Job Openings <img src="" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id ="pop-company-card" class="card my-2">
+                <div class="card-body">
+                    <div class="company-desc">
+                        <div class="card-title">
+                            <p class="company-name">
+                                John Clements Consultants
+                            </p>
+                            <img id="pop-comp-icon" src="images\RYXON8fpcx4d4HcviPfVMn7Tdd3qRPfrOP5otogJ.jpeg" alt="" srcset="">
+                            <a href=""> View Job Openings <img src="" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id ="pop-company-card" class="card my-2">
+                <div class="card-body">
+                    <div class="company-desc">
+                        <div class="card-title">
+                            <p class="company-name">
+                                John Clements Consultants
+                            </p>
+                            <img id="pop-comp-icon" src="images\RYXON8fpcx4d4HcviPfVMn7Tdd3qRPfrOP5otogJ.jpeg" alt="" srcset="">
+                            <a href=""> View Job Openings <img src="" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id ="pop-company-card" class="card my-2">
+                <div class="card-body">
+                    <div class="company-desc">
+                        <div class="card-title">
+                            <p class="company-name">
+                                John Clements Consultants
+                            </p>
+                            <img id="pop-comp-icon" src="images\RYXON8fpcx4d4HcviPfVMn7Tdd3qRPfrOP5otogJ.jpeg" alt="" srcset="">
+                            <a href=""> View Job Openings <img src="" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id ="pop-company-card" class="card my-2">
+                <div class="card-body">
+                    <div class="company-desc">
+                        <div class="card-title">
+                            <p class="company-name">
+                                John Clements Consultants
+                            </p>
+                            <img id="pop-comp-icon" src="images\RYXON8fpcx4d4HcviPfVMn7Tdd3qRPfrOP5otogJ.jpeg" alt="" srcset="">
+                            <a href=""> View Job Openings <img src="" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 my-5">
+            <div id ="pop-company-card" class="card">
+                <div class="card-body">
+                    <div class="company-desc">
+                        <div class="card-title">
+                            <p class="company-name">
+                                John Clements Consultants
+                            </p>
+                            <img id="pop-comp-icon" src="images\RYXON8fpcx4d4HcviPfVMn7Tdd3qRPfrOP5otogJ.jpeg" alt="" srcset="">
+                            <a href=""> View Job Openings <img src="" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id ="pop-company-card" class="card my-2">
+                <div class="card-body">
+                    <div class="company-desc">
+                        <div class="card-title">
+                            <p class="company-name">
+                                John Clements Consultants
+                            </p>
+                            <img id="pop-comp-icon" src="images\RYXON8fpcx4d4HcviPfVMn7Tdd3qRPfrOP5otogJ.jpeg" alt="" srcset="">
+                            <a href=""> View Job Openings <img src="" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id ="pop-company-card" class="card my-2">
+                <div class="card-body">
+                    <div class="company-desc">
+                        <div class="card-title">
+                            <p class="company-name">
+                                John Clements Consultants
+                            </p>
+                            <img id="pop-comp-icon" src="images\RYXON8fpcx4d4HcviPfVMn7Tdd3qRPfrOP5otogJ.jpeg" alt="" srcset="">
+                            <a href=""> View Job Openings <img src="" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id ="pop-company-card" class="card my-2">
+                <div class="card-body">
+                    <div class="company-desc">
+                        <div class="card-title">
+                            <p class="company-name">
+                                John Clements Consultants
+                            </p>
+                            <img id="pop-comp-icon" src="images\RYXON8fpcx4d4HcviPfVMn7Tdd3qRPfrOP5otogJ.jpeg" alt="" srcset="">
+                            <a href=""> View Job Openings <img src="" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id ="pop-company-card" class="card my-2">
+                <div class="card-body">
+                    <div class="company-desc">
+                        <div class="card-title">
+                            <p class="company-name">
+                                John Clements Consultants
+                            </p>
+                            <img id="pop-comp-icon" src="images\RYXON8fpcx4d4HcviPfVMn7Tdd3qRPfrOP5otogJ.jpeg" alt="" srcset="">
+                            <a href=""> View Job Openings <img src="" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 my-5">
+            <div id ="pop-company-card" class="card">
+                <div class="card-body">
+                    <div class="company-desc">
+                        <div class="card-title">
+                            <p class="company-name">
+                                John Clements Consultants
+                            </p>
+                            <img id="pop-comp-icon" src="images\RYXON8fpcx4d4HcviPfVMn7Tdd3qRPfrOP5otogJ.jpeg" alt="" srcset="">
+                            <a href=""> View Job Openings <img src="" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id ="pop-company-card" class="card my-2">
+                <div class="card-body">
+                    <div class="company-desc">
+                        <div class="card-title">
+                            <p class="company-name">
+                                John Clements Consultants
+                            </p>
+                            <img id="pop-comp-icon" src="images\RYXON8fpcx4d4HcviPfVMn7Tdd3qRPfrOP5otogJ.jpeg" alt="" srcset="">
+                            <a href=""> View Job Openings <img src="" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id ="pop-company-card" class="card my-2">
+                <div class="card-body">
+                    <div class="company-desc">
+                        <div class="card-title">
+                            <p class="company-name">
+                                John Clements Consultants
+                            </p>
+                            <img id="pop-comp-icon" src="images\RYXON8fpcx4d4HcviPfVMn7Tdd3qRPfrOP5otogJ.jpeg" alt="" srcset="">
+                            <a href=""> View Job Openings <img src="" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id ="pop-company-card" class="card my-2">
+                <div class="card-body">
+                    <div class="company-desc">
+                        <div class="card-title">
+                            <p class="company-name">
+                                John Clements Consultants
+                            </p>
+                            <img id="pop-comp-icon" src="images\RYXON8fpcx4d4HcviPfVMn7Tdd3qRPfrOP5otogJ.jpeg" alt="" srcset="">
+                            <a href=""> View Job Openings <img src="" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id ="pop-company-card" class="card my-2">
                 <div class="card-body">
                     <div class="company-desc">
                         <div class="card-title">

@@ -19,32 +19,32 @@
             <div class="grid-details">
                 <div class="input">
                     <label for="">First Name</label>
-                    <input type="text" name="fname" placeholder="First Name" require pattern="[a-zA-Z'-'\s]*">
+                    <input id="firstName"type="text" name="fname" placeholder="First Name" require pattern="[a-zA-Z'-'\s]*">
                 </div>
                 <div class="input">
                     <label for="">Last Name</label>
-                    <input type="text" name="lname" placeholder="Last Name" require pattern="[a-zA-Z'-'\s]*">
+                    <input id="lastName"type="text" name="lname" placeholder="Last Name" require pattern="[a-zA-Z'-'\s]*">
                 </div>
                 <div class="input">
                     <label for="">Email</label>
-                    <input type="email" name="email" placeholder="Email" require>
+                    <input id="email"type="email" name="email" placeholder="Email" require>
                 </div>
                 <div class="input">
                     <label for="">Phone</label>
-                    <input type="phone" name="phone" placeholder="Phone Number" require pattern="[0-9]{11}" oninvalid="this.setCustomValidity('Enter Valid Phone Number')" oninput="this.setCustomValidity('')">
+                    <input id="phone"type="phone" name="phone" placeholder="Phone Number" require pattern="[0-9]{11}" oninvalid="this.setCustomValidity('Enter Valid Phone Number')" oninput="this.setCustomValidity('')">
                 </div>
                 <div class="grid-details">
                     <div class="input">
                         <label for="">Password</label>
-                        <input type="password" name="pass" placeholder="Password" require>
+                        <input id="passWord" type="password" name="pass" placeholder="Password" require>
                     </div>
                     <div class="input">
                         <label for="">Confirm Password</label>
-                        <input type="password" name="cpass" placeholder="Confirm Password" require>
+                        <input id="cpassWord"type="password" name="cpass" placeholder="Confirm Password" require>
                     </div>
                 </div>
                 <div class="btn">
-                    <input type="submit" value="Signup Now" class="btn-primary">
+                    <input onclick="connect.php"type="submit" value="Signup Now" class="btn-primary">
                 </div>
                 <div class="link">Already signed up ? <a href="#">Login now!</a></div>
                
