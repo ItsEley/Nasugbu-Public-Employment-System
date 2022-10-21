@@ -12,7 +12,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["submit"])){
     $confirm_password = trim($_POST['confirm_password']);
     $password_hash = password_hash($password,PASSWORD_BCRYPT);
 
-    if 
 }
 
 
