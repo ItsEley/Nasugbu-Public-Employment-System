@@ -1,3 +1,14 @@
+<?php
+session_start();
+  if (!isset($_SESSION["userID"])|| $_SESSION["userID"] !== true){
+
+    header("location:login.php");
+    exit;
+  }
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

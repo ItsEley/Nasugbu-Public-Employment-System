@@ -3,16 +3,16 @@ require_once "config.php";
 require_once "session.php";
 
 $error = '';
-if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])){
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset ($_POST['submit'])){
 
 
     $email = trim($_POST['email']);
     $password = trim($_POST['password']);
 
-    if(empty($_POST['email'])){
+    if(empty(['email'])){
         $error .= '<p class="error">Email should not be empty!</p>';
     }
-    if(empty($_POST['password'])){
+    if(empty(['password'])){
         $error .= '<p class="error">Password should not be empty!</p>';
     }
 
@@ -20,14 +20,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])){
         if($query = $db -> prepare("SELECT FROM users WHERE email = ?")){
             $query->bind_param('s',$email);
             $query->execute();
-            $row=$query->fetch();
+            $row = $query->fetch();
 
                 if($row){
                     if(password_verify($password,$row['$password'])){
                         $_SESSION['userID'] = $row['userId'];
                         $_SESSION['user'] = $row;
 
-                        header("location: home.php");
+                        header("location:home.php");
                         exit;
 
                     }else{
