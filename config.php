@@ -1,8 +1,8 @@
 <?php
-def('dbserver','localhost');
-def('dbusername','root');
-def('dbpassword','');
-def('dbname','db_employment');
+define('dbserver','localhost');
+define('dbusername','root');
+define('dbpassword','');
+define('dbname','db_employment');
 
 $db = mysqli_connect(dbserver,dbusername,dbpassword,dbname);
 

@@ -12,9 +12,48 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["submit"])){
     $confirm_password = trim($_POST['confirm_password']);
     $password_hash = password_hash($password,PASSWORD_BCRYPT);
 
+    if($query = $db->prepare("SELECT * FROM users WHERE email = ?")){
+        $error = '';
+
+        $query->bind_param('s',$email);
+        $query->execute();
+
+        $query->store_result();
+            if($query->num_rows > 0){
+
+                $error .='<p class="error">Email is already registered</p>';
+            }else{
+
+                if (strlen($password)<8){
+                    $error .='<p class="error">Password should contain 8 characters</p>';
+                }
+                
+                if(empty($confirm_password)){
+                    $error .='<p class="error">Please enter confirm password</p>';
+
+                }else{
+
+                    if(empty($error) && ($password != $confirm_password)){
+                        $error .= '<p class="error">Password did not match</p>';
+                    }
+                }
+                if(empty($error)){
+                    $insertQuery = $db -> prepare("INSERT INTO users (fname,lname,email,phone,password,confirm_password) VALUES (?,?,?,?,?,?)");
+                    $insertQuery->bind_param("ssssss",$fname,$lname,$email,$phone,$password_hash,$password_hash);
+                    $result = $insertQuery->execute();
+                    if ($result){
+                        $error .='<p class="success">Your registration is successfull!</p>';
+
+                    }else{
+                        $error .='<p class="error">Something went wrong!</p>';
+                    }
+                }
+            }
+    }
+$query->close();
+$insertQuery->close();
+mysqli_close($db);
 }
-
-
 ?>
 
 <!DOCTYPE html>
