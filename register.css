@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.card{
+
+    border-radius:20px 20px
+}
+
+#signup-text{
+    border-radius:10px 10px
+}
+.form-group{
+    margin-left:50px
+}
+
+.form-control{
+    width:450px
+}
+.form-control{
+    padding:12px;
+}
+.signup-title{
+    margin-left:50px;
+    font-weight:700;
+}
+.redi-login{
+    font-weight:500;
+}
+.btn{
+    width:450px;
+    font-weight:500
+}
+.signup-sub{
+    margin-left:50px;
+}
+#signup-logo{
+    margin-top:200px;
+    width:600px;
+}
+.navbar{
+
+    position: fixed;
+}

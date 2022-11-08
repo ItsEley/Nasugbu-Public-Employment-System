@@ -1,13 +1,4 @@
-<?php
-session_start();
-  if (!isset($_SESSION["userID"])|| $_SESSION["userID"] !== true){
 
-    header("location:login.php");
-    exit;
-  }
-
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -38,14 +29,16 @@ session_start();
                     <li class="nav-item active">
                       <a href="#" class="nav-link ">Jobs</a></li>
                     <li class="nav-item ">
-                      <a href="#" class="nav-link" >Companies</a></li>
+                      <a href="companies.php" class="nav-link" >Companies</a></li>
                     <li class="nav-item ">
                       <a href="#" class="nav-link" >Career Guide</a></li>
                     <span></span>
                     <li class="nav-item ">
-                      <a href="" class="nav-link">I'm a Jobseeker</a></li>
+                      <a href="register.php" class="nav-link">I'm a Jobseeker</a></li>
                     <li class="nav-item">
-                    <a href="#" class="nav-link">I'm an Employer</a></li>
+                    <a href="register-emp.php" class="nav-link">I'm an Employer</a></li>
+                    <li class="nav-item ">
+                      <a href="login.php" class="nav-link" >Login</a></li>
                 </ul>
             </nav>
             <div class="sub-navbar row mx-auto" id="sub-nav">

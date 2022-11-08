@@ -1,17 +1,18 @@
 <?php
 require_once "config.php";
-require_once "session.php";
+require_once "session-emp.php";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["submit"])){
 
-    $fname = trim($_POST['fname']);
-    $lname = trim($_POST['lname']);
-    $email = trim($_POST['email']);
-    $phone = trim($_POST['phone']);
+    $business_name = trim($_POST['business_name']);
+    $business_email = trim($_POST['business_email']);
+    $business_phone = trim($_POST['business_phone']);
     $password = trim($_POST['password']);
     $confirm_password = trim($_POST['confirm_password']);
 
-    if($query = $db->prepare("SELECT * FROM users WHERE email = ?")){
+    $hash_password = password_hash($password, PASSWORD_DEFAULT);
+
+    if($query = $db->prepare("SELECT * FROM employers WHERE business_email = ?")){
         $error = '';
 
         $query->bind_param('s',$email);
@@ -19,31 +20,31 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["submit"])){
 
         $query->store_result();
             if($query->num_rows > 0){
-                header("Location: register.php?error=Email is registered already");
+                echo("Email is registered already");
             }else{
 
                 if (strlen($password)<8){
-                    header("Location: register.php?error=Password should have atleast 8 characters");
+                    header("Location: register-emp.php?error=Password should have atleast 8 characters");
                 }
                 
                 if(empty($confirm_password)){
-                    header("Location: register.php?error=enter confirm pass");
+                    header("Location: register-emp.php?error=enter confirm pass");
 
                 }else{
 
                     if(empty($error) && ($password != $confirm_password)){
-                        header("Location: register.php?error=Password is did not match");
+                        header("Location: register-emp.php?error=Password is did not match");
                     }
                 }
                 if(empty($error)){
-                    $insertQuery = $db -> prepare("INSERT INTO users (fname,lname,email,phone,password,confirm_password) VALUES (?,?,?,?,?,?)");
-                    $insertQuery->bind_param("ssssss",$fname,$lname,$email,$phone,$password,$confirm_password);
+                    $insertQuery = $db -> prepare("INSERT INTO employers (business_name,business_email,business_phone,password,confirm_password) VALUES (?,?,?,?,?)");
+                    $insertQuery->bind_param("sssss",$business_name,$business_email,$business_phone,$password,$confirm_password);
                     $result = $insertQuery->execute();
                     if ($result){
-                        header("Location: register.php?error=Success");
+                        echo("Success");
 
                     }else{
-                        header("Location: register.php?error=Something went wrongs");
+                        header("Location: register-emp.php?error=Something went wrongs");
                     }
                 }
             }
@@ -81,7 +82,7 @@ exit;
                 <ul class="navbar-nav mx-5">
 
                     <li class="nav-item active">
-                      <a href="#" class="nav-link ">Jobs</a></li>
+                      <a href="home.php" class="nav-link ">Jobs</a></li>
                     <li class="nav-item ">
                       <a href="companies.php" class="nav-link" >Companies</a></li>
                     <li class="nav-item ">
@@ -99,28 +100,22 @@ exit;
             <div class="col-lg-12 col-md-6 col-sm-8">
                 <div class="card border-0 shadow my-5">
                     <div class="row">
-                        <div id="signup-text"class="col-lg-6 col-md-3 col-sm-4 bg-primary">
-                           <img id="signup-logo"src="https://cdn-static.talent.com/img/home-page/img-home-1.png" alt="signup-logo" srcset="">
-                        </div>
                         <div class="col-lg-6 col-md-3 col-sm-4 ">
                             <?php if (isset($_GET['error'])) { ?>
                                 <p class="error"><?php echo $_GET['error']; ?></p>
                             <?php } ?>
-                                <h2 class="signup-title my-3">Signup as jobseeker Now!</h2>
-                                <p class="signup-sub my-2">Apply to your dream job now !</p>
+                                <h2 class="signup-title my-3">Signup as Employer Now!</h2>
+                                <p class="signup-sub my-2">Improve your business with us !</p>
                                     <div class="form-container row mx-auto">
                                     <form action="" method="post">
                                         <div class="form-group my-3 mt-5">
-                                            <input type="text" name="lname" class="form-control" placeholder="First Name" require>
+                                            <input type="text" name="business_name" class="form-control" placeholder="Business Name" require>
                                         </div>
                                         <div class="form-group my-3">
-                                            <input type="text" name="fname" class="form-control" placeholder="Last Name" require>
+                                            <input type="email" name="business_email" class="form-control" placeholder="Business Email" require>
                                         </div>
                                         <div class="form-group my-3">
-                                            <input type="email" name="email" class="form-control" placeholder="Email"require>
-                                        </div>
-                                        <div class="form-group my-3">
-                                            <input type="number" name="phone" class="form-control" placeholder="Phone"require>
+                                            <input type="number" name="business_phone" class="form-control" placeholder="Business Phone"require>
                                         </div>
                                         <div class="form-group my-3">
                                             <input type="password" name="password" class="form-control" placeholder="Password" require>
@@ -131,12 +126,16 @@ exit;
                                         </div>
                                         <div class="form-group my-3 mt-5">
                                             <input type="submit" name="submit" class="btn btn-primary" value="Signup" >
-                                        </div>
-                                        <p class="redi-login text-center">Already have an account? <a href="login.php">Login</a></p>
+                                        </div class="text-center">
+                                        <p class="redi-login">Already have an account? <a href="login.php">Login</a></p>
                                     </form>
                                     </div>
+                                    
 
                     </div>
+                    <div id="signup-text"class="col-lg-6 col-md-3 col-sm-4 bg-primary">
+                           <img id="signup-logo"src="https://cdn-static.talent.com/img/home-page/img-home-1.png" alt="signup-logo" srcset="">
+                        </div>
                 </div>
                 
                 

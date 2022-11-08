@@ -11,9 +11,9 @@
 </head>
 <body>
 <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light" id="navbar-main">
-            <a href="#" class="navbar-brand mx-3">
-                <img src="images\20221010_172415_0000.png" alt="LOGO" srcset="" height="100" width="100">
+<nav class="navbar navbar-expand-lg navbar-light" id="navbar-main">
+            <a href="home.php" class="navbar-brand mx-3">
+                <img src="" alt="LOGO" srcset="" height="100" width="100">
             </a>
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#contentMenu">
@@ -26,14 +26,16 @@
                     <li class="nav-item active">
                       <a href="#" class="nav-link ">Jobs</a></li>
                     <li class="nav-item ">
-                      <a href="#" class="nav-link" >Companies</a></li>
+                      <a href="companies.php" class="nav-link" >Companies</a></li>
                     <li class="nav-item ">
                       <a href="#" class="nav-link" >Career Guide</a></li>
-
+                    <span></span>
                     <li class="nav-item ">
-                      <a href="#" class="nav-link">I'm a Jobseeker</a></li>
+                      <a href="register.php" class="nav-link">I'm a Jobseeker</a></li>
                     <li class="nav-item">
-                    <a href="#" class="nav-link">I'm an Employer</a></li>
+                    <a href="register-emp.php" class="nav-link">I'm an Employer</a></li>
+                    <li class="nav-item ">
+                      <a href="login.php" class="nav-link" >Login</a></li>
                 </ul>
             </nav>
             <div class="companies-text p-0 my-3">
